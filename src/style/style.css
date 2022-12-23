@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --very-papaya: #ff9901;
+    --very-black: #000000;
+    --price-color: #ff0000;
+    --white: #FFFFFF;
+    --black: #000000;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+
+/* ----------------------------navbar1-------------------------- */  
+
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    background-color: var(--very-papaya);
+}
+
+.login p {
+    color: var(--white);
+    margin-left: 35%;
+}
+
+.user-login {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.flag-user img {
+    width: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.up-user {
+    display: flex;
+    align-items: center;
+    font-size: var(--sm);
+}
+
+.up-user a {
+    text-decoration: none;
+    margin: 10px;
+    color: var(--white);
+    font-size: var(--md);
+}
+
+.fa-regular {
+    color: var(--white);
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.fa-sharp {
+    color: var(--white);
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* ----------------------------navbar2-------------------------- */
+
+.nav-container {
+    display: flex;
+    width: 100%;
+    height: 85px;
+    justify-content: space-between;
+}
+
+.conteinItem {
+    display: flex;
+    width: 80%;
+    height: 85px;
+    background-color: var(--very-black);
+    clip-path: polygon(50% 0%, 100% 0, 90% 100%, 0 100%, 0 0);
+}
+
+.item {
+    width: 100px;
+    height: 100%;
+    line-height: 80px;
+    text-align: center;
+    list-style: none;
+    color: var(--white);
+    margin-left: 20px;
+}
+
+nav ul li:nth-child(1){
+    margin-left: 80px;
+}
+
+.item:hover {
+    cursor: pointer;
+    border-bottom: 3px solid var(--very-papaya);
+    background: #19233e;
+    font-weight: bold;
+}
+
+.item::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: var(--very-papaya);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.logo-marca img {
+    width: 210px;
+    margin: 25px;
+}
