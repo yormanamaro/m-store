@@ -1,13 +1,13 @@
 .product {
     width: 100%;
-    height: 50vh;
+    height: 94vh;
     border-top: 20px;
-    border-top: 2px dashed gray;
+    border-top: 2px dashed var(--very-papaya);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 7rem;
 }
 
 .title-products {
