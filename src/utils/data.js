@@ -29,4 +29,37 @@ export const product = [
         price: 23.800, 
         url: 'Essential-cap.png'
     }
-];    
+]; 
+
+export const productTwo = [
+        {
+        name: 'ACTIVE DUALBRAND FULL',
+        price: 101.900, 
+        url: 'Jumpers-uno.png' 
+    },
+    {
+        name: 'MENS USA VARSITY',
+        price: 53.300, 
+        url: 'Jumpers-dos.png'
+    },
+    {
+        name: 'GULF OVERHEAD HOODIE',
+        price: 61.701, 
+        url: 'Jumpers-tres.png'
+    },
+    {
+        name: 'ACTIVE DUALBRAND BLACK',
+        price: 101.910, 
+        url: 'Jumpers-cuatro.png'
+    },
+    {
+        name: 'PAPAYA HOODED SWEAT',
+        price: 44.350, 
+        url: 'Jumpers-cinco.png'
+    },
+    {
+        name: 'MENS TEAM CORE',
+        price: 95.110, 
+        url: 'Jumpers-seis.png'
+    }
+];

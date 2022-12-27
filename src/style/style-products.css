@@ -8,11 +8,13 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 7rem;
+    margin-bottom: 60px;
 }
 
 .title-products {
     margin-left: 80px;
-    font-size: 25px
+    font-size: 25px;
+    margin-bottom: 25px;
 }
 
 .card {
