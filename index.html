@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ec2bf2b54a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
 
@@ -31,11 +32,11 @@
         </div>
         <nav class="nav-container">
             <ul class="conteinItem">
-                <li class="item">HEADWEAR</li>
-                <li class="item">JUMPERS</li>
+                <li class="item"> <a href="#headwear">HEADWEAR</a> HEADWEAR</li>
+                <li class="item"> <a href="#jumpers">JUMPERS</a> JUMPERS</li>
                 <li>
-                    <a class="item" href="./shoppingCart.html">
-                        <i class="bi bi-cart-fill"></i> CARRITO <span id="numerito" class="numerito">0</span>
+                    <a class="item active" href="./shoppingCart.html">
+                        <i class="item bi bi-cart-fill"></i> CARRITO <span id="numerito" class="numerito">0</span>
                     </a>
                 </li>
             </ul>
@@ -50,45 +51,23 @@
             <div class="contain-text">
                 <h1 class="title">WINTER SALE. HUGE <br>SAVINGS</h1>
                 <p>It's not too late to treat yourself or that special McLaren fan in your life.</p>
-                <a class="btn" href="#">SHOP NOW</a>
+                <a class="btn" href="#headwear">SHOP NOW</a>
             </div>
         </section>
 
-        <div class="title-products">
+        <div class="title-products" id="headwear">
             <p>Products</p>
             <h1>POPULAR HEADWEAR RIGHT NOW</h1>
         </div>
 
-        <section id="products" class="product">
-            <div id="contenedor-productos" class="card">
-                <figure class="contein-Img">
-                    <img src="" alt="" class="img-Card">
-                </figure>
-                <h2 class="name-Product"></h2>
-                <div>
-                    <p class="price">$ </p>
-                    <button class="buy">Buy</button>
-                </div>
-            </div>
+        <section class="product">
+             <!-- Esto se va a rellenar con JS -->
         </section>
 
-        <div class="title-products">
+        <div class="title-products" id="jumpers">
             <p>Products</p>
             <h1>POPULAR JUMPERS RIGHT NOW</h1>
         </div>
-
-        <section id="productsTwo" class="product">
-            <div class="card">
-                <figure class="contein-Img">
-                    <img src="" alt="" class="img-Card">
-                </figure>
-                <h2 class="name-Product"></h2>
-                <div>
-                    <p class="price">$ </p>
-                    <button class="buy">Buy</button>
-                </div>
-            </div>
-        </section>
 
     </main>
 
