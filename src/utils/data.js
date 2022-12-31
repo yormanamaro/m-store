@@ -2,67 +2,67 @@ const product = [
     {
         id: "articulo-01",
         name: 'TEAM 9FORTY CAP',
-        price: 29900, 
+        price: 2990, 
         url: 'headwear1.png' 
     },
     {
         id: "articulo-02",
         name: 'DR SEASONAL 940',
-        price: 27900, 
+        price: 2790, 
         url: 'Dr-seasonal-940.png'
     },
     {
         id: "articulo-03",
         name: 'GULF CASUAL CLASSIC',
-        price: 29900, 
+        price: 2990, 
         url: 'Gulf-casual-classic.png'
     },
     {
         id: "articulo-04",
         name: 'USA VERSITY M',
-        price: 29200, 
+        price: 2920, 
         url: 'USA-versity-M.png'
     },
     {
         id: "articulo-05",
         name: 'USA VERSITY M BLACK',
-        price: 29200, 
+        price: 2920, 
         url: 'USA-versity-M-Black.png'
     },
     {
         id: "articulo-06",
         name: 'ESSENTIAL CAP',
-        price: 23800, 
+        price: 2380, 
         url: 'Essential-cap.png'
     },
     {
         id: "articulo-07",
         name: 'ACTIVE DUALBRAND FULL',
-        price: 101900, 
+        price: 10190, 
         url: 'Jumpers-uno.png' 
     },
     {
         id: "articulo-08",
         name: 'MENS USA VARSITY',
-        price: 53300, 
+        price: 5330, 
         url: 'Jumpers-dos.png'
     },
     {
         id: "articulo-09",
         name: 'GULF OVERHEAD HOODIE',
-        price: 61.701, 
+        price: 6170, 
         url: 'Jumpers-tres.png'
     },
     {
         id: "articulo-10",
         name: 'ACTIVE DUALBRAND BLACK',
-        price: 101910, 
+        price: 10191, 
         url: 'Jumpers-cuatro.png'
     },
     {
         id: "articulo-11",
         name: 'PAPAYA HOODED SWEAT',
-        price: 44.350, 
+        price: 44350, 
         url: 'Jumpers-cinco.png'
     },
     {
@@ -83,7 +83,6 @@ function cargarProductos() {
         const div = document.createElement("div");
         div.classList.add("card");
         div.innerHTML = `
-            <div id="contenedor-productos" class="card">
             <figure class="contein-Img">
                 <img src= "./public/assets/imgProducts/${product.url}" alt="${product.name}" class="img-Card">
             </figure>
