@@ -73,8 +73,9 @@ const product = [
     },
 ];
 
-
+// Se llama al id del elemento en html que queremos afectar
 const contenedorProductos = document.querySelector(".product");
+const botonesAgregar = document.querySelector(".buy");
 
 function cargarProductos() {
 
@@ -95,8 +96,18 @@ function cargarProductos() {
         `;
         contenedorProductos.append(div);
     })
+
 };
 
 cargarProductos();
 
+botonesAgregar.addEventListener("click", agregarAlCarrito);
+
+
+const productosEnCarrito = [];
+
+function agregarAlCarrito(product) {
+    const id = product.currentTarget.id;
+    console.log(id);
+};
 
